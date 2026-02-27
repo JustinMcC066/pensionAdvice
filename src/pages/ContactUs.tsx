@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import { Helmet } from "react-helmet-async";
 import { useNavigate } from "react-router-dom";
 import { Phone, Mail, MapPin, Clock, Shield, ChevronDown } from "lucide-react";
 import Header from "@/components/Header";
@@ -173,6 +174,10 @@ const ContactUs = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <Helmet>
+        <title>Contact Us | Ireland's Leading Authority on Pension Advice</title>
+        <meta name="description" content="Contact us today to speak with one of our highly qualified pension experts. Pension Advice is Ireland's leading authority on Pension Advice. We advise on all aspects of Pensions and Retirement Planning." />
+      </Helmet>
       <Header />
 
       {/* Hero Section with Background Image */}
