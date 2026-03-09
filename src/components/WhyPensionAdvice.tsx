@@ -1,14 +1,9 @@
-import { useState } from "react";
 import { HeartHandshake, TrendingUp, Headphones, BadgeCheck } from "lucide-react";
 
-const homepageVideos = [
-  "/videos/why-pension-advice.mp4",
-  "/videos/what-sets-pension-advice-apart.mp4",
-];
+// TODO: Add video rotation when "What Sets Pension Advice Apart" mp4 is ready
+// const homepageVideos = ["/videos/why-pension-advice.mp4", "/videos/what-sets-pension-advice-apart.mp4"];
 
 const WhyPensionAdvice = () => {
-  const [videoSrc] = useState(() => homepageVideos[Math.floor(Math.random() * homepageVideos.length)]);
-
   const features = [{
     icon: HeartHandshake,
     title: "Clear advice, focused on you",
@@ -89,7 +84,7 @@ const WhyPensionAdvice = () => {
               <div className="absolute -inset-4 bg-gradient-to-br from-accent/20 to-primary/10 rounded-3xl blur-2xl opacity-50" />
               <div className="relative aspect-video rounded-2xl overflow-hidden shadow-2xl ring-1 ring-border/50">
                 <video
-                  src={`${videoSrc}#t=0.5`}
+                  src="/videos/why-pension-advice.mp4#t=0.5"
                   controls 
                   playsInline
                   preload="auto"
