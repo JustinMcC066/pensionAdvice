@@ -13,16 +13,16 @@ import standardLifeLogo from "@/assets/partners/standard-life.jpg";
 import royalLondonLogo from "@/assets/partners/royal-london.jpg";
 import pensionPropertyLogo from "@/assets/partners/pension-property.jpg";
 const partnerLogos = [
-  { src: avivaLogo, alt: "Aviva" },
-  { src: bcpLogo, alt: "BCP" },
-  { src: cantorFitzgeraldLogo, alt: "Cantor Fitzgerald" },
-  { src: coneximLogo, alt: "Conexim" },
-  { src: davyLogo, alt: "Davy" },
   { src: irishLifeLogo, alt: "Irish Life" },
   { src: newIrelandLogo, alt: "New Ireland Assurance" },
   { src: zurichLogo, alt: "Zurich" },
   { src: standardLifeLogo, alt: "Standard Life" },
   { src: royalLondonLogo, alt: "Royal London" },
+  { src: avivaLogo, alt: "Aviva" },
+  { src: bcpLogo, alt: "BCP" },
+  { src: cantorFitzgeraldLogo, alt: "Cantor Fitzgerald" },
+  { src: coneximLogo, alt: "Conexim" },
+  { src: davyLogo, alt: "Davy" },
   { src: pensionPropertyLogo, alt: "Pension Property" },
 ];
 
