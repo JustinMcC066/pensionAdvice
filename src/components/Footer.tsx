@@ -184,7 +184,22 @@ const Footer = () => {
           </VisuallyHidden>
           <img
             src="/remuneration.jpg"
-            alt="Our Remuneration - Details of commission and fee arrangements"
+            alt="Our Remuneration - Page 1"
+            className="w-full h-auto"
+          />
+          <img
+            src="/remuneration-2.jpg"
+            alt="Our Remuneration - Page 2"
+            className="w-full h-auto"
+          />
+          <img
+            src="/remuneration-3.jpg"
+            alt="Our Remuneration - Page 3"
+            className="w-full h-auto"
+          />
+          <img
+            src="/remuneration-4.jpg"
+            alt="Our Remuneration - Page 4"
             className="w-full h-auto"
           />
         </DialogContent>
